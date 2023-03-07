@@ -19,8 +19,7 @@ function App() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization:
-            "Bearer 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",
+          Authorization: "Bearer API_KEY",
         },
         body: JSON.stringify({
           model: "text-davinci-003",
